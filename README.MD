@@ -12,5 +12,22 @@ Nomad Coffee Backend.
 - [x] Follow User
 - [x] Unfollow User
 - [x] See Followers and See Following w/ Pagination
-- [ ] Computed Fields
-- [ ] Search Users
+- [x] Computed Fields
+- [x] Search Users
+
+# Photos
+
+- [ ] Upload Photo (Parse #)
+- [ ] See Photo
+- [ ] See Hashtags
+- [ ] Search Photos
+- [ ] Edit Photo
+- [ ] Like / Unline Photo
+- [ ] See Photo Likes
+- [ ] See Feed
+
+# Comments
+
+- [ ] Comment on Photo
+- [ ] Edit Comment
+- [ ] Delete Comment
