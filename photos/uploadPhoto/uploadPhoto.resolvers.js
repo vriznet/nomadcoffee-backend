@@ -1,13 +1,10 @@
 import client from '../../client';
 import { protectedResolver } from '../../users/users.utils';
+import { buildHashtagObjs } from '../photos.utils';
 const uploadPhotoResolver = async (_, { file, caption }, { loggedInUser }) => {
-  let hashtagObjs = null;
+  let hashtagObjs = [];
   if (caption) {
-    const hashtags = caption.match(/#[\w]+/g);
-    hashtagObjs = hashtags.map((hashtag) => ({
-      where: { hashtag },
-      create: { hashtag },
-    }));
+    hashtagObjs = buildHashtagObjs(caption);
 
     const photo = await client.photo.create({
       data: {

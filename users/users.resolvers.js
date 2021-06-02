@@ -28,5 +28,6 @@ export default {
       });
       return !!exists;
     },
+    photos: ({ id }) => client.user.findUnique({ where: { id } }).photos(),
   },
 };

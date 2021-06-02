@@ -19,8 +19,8 @@ Nomad Coffee Backend.
 
 - [x] Upload Photo (Parse #)
 - [x] See Photo
-- [ ] See Hashtags
-- [ ] Search Photos
+- [x] See Hashtags
+- [x] Search Photos
 - [ ] Edit Photo
 - [ ] Like / Unline Photo
 - [ ] See Photo Likes
