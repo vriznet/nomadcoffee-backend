@@ -21,8 +21,8 @@ Nomad Coffee Backend.
 - [x] See Photo
 - [x] See Hashtags
 - [x] Search Photos
-- [ ] Edit Photo
-- [ ] Like / Unline Photo
+- [x] Edit Photo
+- [x] Like / Unlike Photo
 - [ ] See Photo Likes
 - [ ] See Feed
 
